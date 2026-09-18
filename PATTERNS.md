@@ -1,6 +1,6 @@
 # Patrones de Software
 
-Abstract Factory
+## Abstract Factory
 TerminalFactory crea los tres productos relacionados que requiere una terminal: equipo de carga, validador de estabilidad y documento de embarque. Esto mantiene la coherencia de cada familia de terminales sin necesidad de estructuras condicionales complejas.
 
 Factory Method
