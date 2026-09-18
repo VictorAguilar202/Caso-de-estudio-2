@@ -1,12 +1,12 @@
-# Software Patterns
+# Patrones de Software
 
-## Abstract Factory
-`TerminalFactory` creates the three related products required by a terminal: loading equipment, stability validator, and shipping document. It keeps each terminal family consistent without large conditionals.
+Abstract Factory
+TerminalFactory crea los tres productos relacionados que requiere una terminal: equipo de carga, validador de estabilidad y documento de embarque. Esto mantiene la coherencia de cada familia de terminales sin necesidad de estructuras condicionales complejas.
 
-## Factory Method
-`ManifestRecorder` defines the processing flow and delegates unit creation to `createUnit()`. The three recorder classes parse their own manifest format and calculate weight according to the case rules.
+Factory Method
+ManifestRecorder define el flujo de procesamiento y delega la creación de unidades en createUnit(). Las tres clases de registro analizan su propio formato de manifiesto y calculan el peso según las reglas específicas de cada caso.
 
-## Builder
-`StowagePlan.Builder` creates the immutable `StowagePlan` while validating all required fields. It also makes optional plan data easy to add without a long constructor.
+Builder
+StowagePlan.Builder crea el objeto inmutable StowagePlan al tiempo que valida todos los campos obligatorios. Asimismo, facilita la incorporación de datos opcionales del plan sin requerir un constructor con una lista extensa de parámetros.
 
-These are the three required patterns used in the solution.
+Estos son los tres patrones requeridos que se utilizan en la solución.
